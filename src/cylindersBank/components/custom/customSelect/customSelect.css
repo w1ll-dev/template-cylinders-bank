@@ -1,0 +1,30 @@
+@font-face{
+    font-family: "Roboto-Condensed";
+    src: url("../../../../assets/fonts/RobotoCondensed-Light.ttf");
+}
+.custom-select{
+    font-family: Roboto-Condensed;
+    background-color: #fff;
+    border: 1px solid #c9c9c9;
+    /* height: 70%; */
+    border-style: solid 1px #aaaaaa;
+    border-radius: 3px;
+}
+.custom-select select{
+    font-family: Roboto-Condensed;
+    display: none;
+    text-indent: 0.01px; /* Remove seta padrão do FireFox */
+    text-overflow: "";  /* Remove seta padrão do FireFox */     
+    /* select::-ms-expand {display: none;} */
+}
+
+appearance-select{
+    -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+    -moz-appearance: none; /* Remove estilo padrão do FireFox */
+    appearance: none; /* Remove estilo padrão do FireFox*/
+    background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee;  /* Imagem de fundo (Seta) */
+    background-position: 218px center;  /*Posição da imagem do background*/
+    width: 250px; /* Tamanho do select, maior que o tamanho da div "div-select" */
+    height:30px; /* Altura do select, importante para que tenha a mesma altura em todo os navegadores */
+    border:1px solid #ddd;
+ }

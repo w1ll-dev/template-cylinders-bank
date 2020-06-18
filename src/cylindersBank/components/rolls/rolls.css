@@ -1,0 +1,32 @@
+@font-face{
+    font-family: "Roboto Condensed";
+    src: url("../../../assets/fonts/RobotoCondensed-Light.ttf");
+}
+@font-face{
+    font-family: "Quebec";
+    src: url("../../../assets/fonts/Quebec-Italic.ttf");
+}
+.rolls{
+    gap: 2%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5% repeat(8, 10%) 15%;
+    background-color: rgb(156, 156, 156);
+}
+.roll-header{
+    font-family: Quebec;
+    color: rgb(98, 222, 238);
+    font-size: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rolls-line-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* .rolls-line-2{
+    display: flex;
+    justify-content: space-around;
+    
+} */
